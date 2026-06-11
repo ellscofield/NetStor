@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Stories Portfolio</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- ===================================
+LOADER
+=================================== -->
+<div id="loader">
+    <h1>NETFLIX STORIES</h1>
+</div>
+
+<!-- ===================================
+HEADER
+=================================== -->
+<header id="header">
+    <div class="logo">
+        <span>NETFLIX</span> STORIES
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#trending">Stories</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <div class="header-right">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input
+                type="text"
+                class="search-input"
+                placeholder="Search Projects..."
+            >
+        </div>
+        <button class="profile-btn">
+            <i class="fas fa-user"></i>
+        </button>
+    </div>
+</header>
+
+<!-- ===================================
+HERO SECTION
+=================================== -->
+<section id="hero">
+    <div class="hero-overlay"></div>
+    <img
+        src="images/hero/hero1.jpg"
+        class="hero-bg"
+        alt=""
+    >
+    <div class="hero-content">
+        <span class="hero-tag">
+            A Developer's Story
+        </span>
+        <h1>
+            THE JOURNEY
+        </h1>
+        <p>
+            Every line of code tells a story.
+            Every project becomes a chapter.
+        </p>
+        <div class="hero-buttons">
+            <a href="#featured-story" class="btn-red">
+                <i class="fas fa-play"></i>
+                Watch Story
+            </a>
+            <a href="#about" class="btn-dark">
+                More Info
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================
+CONTINUE WATCHING
+=================================== -->
+<section class="continue-section">
+    <h2>Continue Watching</h2>
+    <div class="continue-card">
+        <img src="images/projects/project1.jpg">
+        <div class="continue-info">
+            <h3>Laravel School System</h3>
+            <div class="progress">
+                <span style="width:70%"></span>
+            </div>
+            <small>70% Complete</small>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================
+TRENDING NOW
+=================================== -->
+<section id="trending">
+    <div class="section-title">
+        <h2>Trending Now</h2>
+    </div>
+    <div class="trending-grid">
+        <div class="movie-card">
+            <img src="images/projects/project1.jpg">
+            <div class="movie-info">
+                <h3>Netflix Clone</h3>
+                <p>Frontend Development</p>
+            </div>
+        </div>
+        <div class="movie-card">
+            <img src="images/projects/project2.jpg">
+            <div class="movie-info">
+                <h3>E-Commerce</h3>
+                <p>Laravel Project</p>
+            </div>
+        </div>
+        <div class="movie-card">
+            <img src="images/projects/project3.jpg">
+            <div class="movie-info">
+                <h3>Portfolio Website</h3>
+                <p>UI/UX Design</p>
+            </div>
+        </div>
+        <div class="movie-card">
+            <img src="images/projects/project4.jpg">
+            <div class="movie-info">
+                <h3>School System</h3>
+                <p>Fullstack App</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================
+FEATURED STORY
+=================================== -->
+<section id="featured-story">
+    <div class="story-image">
+        <img src="images/story/story.jpg">
+    </div>
+    <div class="story-content">
+        <span>FEATURED STORY</span>
+        <h2>
+            How I Started Coding
+        </h2>
+        <p>
+            My journey started from curiosity.
+            What began as learning HTML evolved
+            into building real-world applications.
+        </p>
+        <a href="#" class="btn-red">
+            Read Story
+        </a>
+    </div>
+</section>
+
+<!-- ===================================
+JOURNEY TIMELINE
+=================================== -->
+<section id="journey">
+    <h2>My Journey</h2>
+    <div class="timeline">
+        <div class="timeline-item active">
+            <span>2021</span>
+            <h3>Started Coding</h3>
+            <p>Learning HTML & CSS</p>
+        </div>
+        <div class="timeline-item">
+            <span>2022</span>
+            <h3>First Project</h3>
+            <p>Built Portfolio Website</p>
+        </div>
+        <div class="timeline-item">
+            <span>2023</span>
+            <h3>JavaScript Era</h3>
+            <p>Interactive Websites</p>
+        </div>
+        <div class="timeline-item">
+            <span>2024</span>
+            <h3>Freelancer</h3>
+            <p>Client Projects</p>
+        </div>
+        <div class="timeline-item">
+            <span>2025</span>
+            <h3>University</h3>
+            <p>Information Technology</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================
+PROJECTS
+=================================== -->
+<section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <img src="images/projects/project1.jpg">
+            <div class="project-content">
+                <h3>Netflix Cinematic</h3>
+                <p>HTML CSS JavaScript</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/projects/project2.jpg">
+            <div class="project-content">
+                <h3>Laravel POS</h3>
+                <p>Laravel + MySQL</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/projects/project3.jpg">
+            <div class="project-content">
+                <h3>E-Commerce</h3>
+                <p>Fullstack Website</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================
+STATISTICS
+=================================== -->
+<section id="stats">
+    <div class="stat-card">
+        <h2 data-counter="20">0</h2>
+        <p>Projects</p>
+    </div>
+    <div class="stat-card">
+        <h2 data-counter="5">0</h2>
+        <p>Years Learning</p>
+    </div>
+    <div class="stat-card">
+        <h2 data-counter="10">0</h2>
+        <p>Certificates</p>
+    </div>
+    <div class="stat-card">
+        <h2 data-counter="100">0</h2>
+        <p>Cups of Coffee</p>
+    </div>
+</section>
+
+<!-- ===================================
+MUSIC PLAYER
+=================================== -->
+<div class="music-player">
+    <div class="music-info">
+        <h4>Cinematic Ambient</h4>
+        <p>Focus Music</p>
+    </div>
+    <button id="musicPlay">
+        <i class="fas fa-play"></i>
+    </button>
+    <audio id="ambientMusic">
+        <source src="audio/music.mp3">
+    </audio>
+</div>
+
+<!-- ===================================
+ABOUT
+=================================== -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Passionate web developer who loves
+        creating cinematic digital experiences
+        through code and design.
+    </p>
+</section>
+<!-- ===================================
+FOOTER
+=================================== -->
+<footer>
+    <h2>
+        Every Project Has A Story.
+    </h2>
+    <p>
+        © 2026 Gilang Ferdyansyah
+    </p>
+    <div class="socials">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div id="infoModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>The Journey</h2>
+        <p>
+            Perjalanan dari belajar HTML,
+            CSS, JavaScript hingga membangun
+            project fullstack modern.
+        </p>
+    </div>
+</div>
+</footer>
+<!-- JS -->
+<script src="js/main.js"></script>
+</body>
+</html>
